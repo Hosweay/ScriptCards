@@ -43,7 +43,7 @@
 --:_Lib5E_Is_Immune| --&[%3%]| * 0 [Immune] --<|
 
 --:Lib5E_FIND_RESOURCE|character_id;resourceName;resourceReturnNameStringVariable;ResourceReturnValueStringVariable
---C[%2%]|[*[%1%]:class_resource_name]:_Lib5E_IsResourceClass|[*[%1%]:other_resource_name]:_Lib5E_IsResourceOther
+--C[%2%]|[*[%1%]:class_resource_name]:_Lib5E_Is_ResourceClass|[*[%1%]:other_resource_name]:_Lib5E_Is_ResourceOther
 --?"[%2%]" -eq "[*[%1%]:class_resource_name]"|_Lib5E_Is_ResourceClass
 --?"[%2%]" -eq "[*[%1%]:other_resource_name]"|_Lib5E_Is_ResourceOther
 --Rfirst|[%1%];repeating_resource
